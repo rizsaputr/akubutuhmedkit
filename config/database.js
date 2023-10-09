@@ -1,7 +1,8 @@
 import { Sequelize } from "sequelize"
 
-const db = new Sequelize("pengiriman_db", "root", "asd123", {
-    host: "127.0.0.1",
+const db = new Sequelize("railway", "root", "6doqj0GDjgw5DJG7szwf", {
+    host: "containers-us-west-143.railway.app",
+    port: "5739",
     dialect: "mysql",
 });
 
